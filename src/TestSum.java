@@ -1,11 +1,15 @@
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 import org.junit.Test;
 
 public class TestSum {
 
 	@Test
+<<<<<<< HEAD
 	public void test1Modificado() {
+=======
+	public void testNombreCambiado() {
+>>>>>>> resta
 		assertEquals(4, sum(1, 3));
 	}
 
@@ -21,8 +25,8 @@ public class TestSum {
 		assertEquals(-7, sum(-4, -3));
 	}
 
-	int sum(int a, int b) {
-		return Sum.sum(a, b);
+	int sum(int a, int c) {
+		return Sum.sum(a, c);
 
 	}
 	@Test 
