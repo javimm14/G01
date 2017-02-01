@@ -1,6 +1,6 @@
 
 public class Resta {
-	public static int resta(int a, int b) {
-		return a - b;
+	public static int resta(int b, int a) {
+		return b - a;
 	}
 }
