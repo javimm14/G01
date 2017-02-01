@@ -23,8 +23,8 @@ public class TestResta {
 		assertEquals(-1, resta(-4, -3));
 	}
 	
-	int resta(int a, int b) {
-		return Resta.resta(a, b);
+	int resta(int a, int c) {
+		return Resta.resta(a, c);
 
 	}
 
